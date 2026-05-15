@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Archivist index data (user-specific, never commit)
+.archivist/
+*.index
+metadata.db
+vectors.index
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# HuggingFace model cache (large binary files)
+# These live in ~/.cache/huggingface/ by default, not in the repo
+models/
+
+# Logs
+*.log
+logs/
+
+# Distribution
+dist/

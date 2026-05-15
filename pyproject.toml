@@ -1,0 +1,71 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "archivist-ai"
+version = "0.1.0"
+description = "Local-first AI image search & management — no cloud, no API keys, 100% private"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+keywords = ["image-search", "clip", "ai", "local", "privacy", "faiss", "computer-vision"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Environment :: Console",
+]
+dependencies = [
+    "torch>=2.0.0",
+    "transformers>=4.39.0",
+    "Pillow>=10.0.0",
+    "faiss-cpu>=1.7.4",
+    "typer[all]>=0.9.0",
+    "rich>=13.0.0",
+    "tqdm>=4.65.0",
+    "numpy>=1.24.0",
+    "watchdog>=3.0.0",
+    "gradio>=4.0.0",
+]
+
+[project.optional-dependencies]
+onnx = [
+    "onnxruntime>=1.16.0",
+]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "ruff>=0.1.0",
+    "onnxruntime>=1.16.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/archivist-ai"
+Repository = "https://github.com/yourusername/archivist-ai"
+"Bug Tracker" = "https://github.com/yourusername/archivist-ai/issues"
+
+[project.scripts]
+archivist = "archivist.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["archivist*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
