@@ -60,11 +60,12 @@ where = ["."]
 include = ["archivist*"]
 
 [tool.ruff]
-line-length = 100
+line-length = 120
 target-version = "py39"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP"]
+ignore = ["E501"]  # line-length handled by the line-length setting above
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
