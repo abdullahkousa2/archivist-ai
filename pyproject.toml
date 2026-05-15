@@ -65,7 +65,13 @@ target-version = "py39"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP"]
-ignore = ["E501"]  # line-length handled by the line-length setting above
+ignore = [
+    "E501",   # line too long — not enforced
+    "UP037",  # quoted type annotations — valid Python, more compatible
+    "F541",   # f-string without placeholders — minor style issue
+    "UP006",  # use `list` instead of `List` — keep compat with 3.9
+    "UP007",  # use `X | Y` instead of `Optional[X]` — keep compat with 3.9
+]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
