@@ -23,7 +23,7 @@ tags:
 
 **Search your image library with plain English. No cloud. No API keys. 100% private.**
 
-This Space is a **live demo** of [Archivist-AI](https://github.com/yourusername/archivist-ai) — a fully local, open-source AI image search tool.
+This Space is a **live demo** of [Archivist-AI](https://github.com/abdullahkousa2/archivist-ai) — a fully local, open-source AI image search tool.
 
 > ⚠️ **Note:** This demo indexes a small sample image set. To search your own photos, install the package locally (see below) — your images never leave your machine.
 
@@ -50,4 +50,4 @@ archivist ui
 
 Your photos stay on your computer. Nothing is uploaded.
 
-**GitHub:** [github.com/yourusername/archivist-ai](https://github.com/yourusername/archivist-ai)
+**GitHub:** [github.com/abdullahkousa2/archivist-ai](https://github.com/abdullahkousa2/archivist-ai)

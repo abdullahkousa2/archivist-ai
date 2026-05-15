@@ -5,7 +5,7 @@ Thank you for your interest in contributing! Here's how to get started.
 ## Setup
 
 ```bash
-git clone https://github.com/yourusername/archivist-ai
+git clone https://github.com/abdullahkousa2/archivist-ai
 cd archivist-ai
 pip install -e ".[dev]"
 ```

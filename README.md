@@ -4,12 +4,12 @@
 
 ### Local-first AI image search & management — no cloud, no API keys, 100% private.
 
-[![CI](https://github.com/yourusername/archivist-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/archivist-ai/actions)
+[![CI](https://github.com/abdullahkousa2/archivist-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/abdullahkousa2/archivist-ai/actions)
 [![PyPI](https://img.shields.io/pypi/v/archivist-ai?color=orange)](https://pypi.org/project/archivist-ai/)
 [![Python](https://img.shields.io/badge/python-3.9%20|%203.10%20|%203.11%20|%203.12-blue)](https://pypi.org/project/archivist-ai/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](https://github.com/yourusername/archivist-ai)
-[![HuggingFace Space](https://img.shields.io/badge/🤗%20HuggingFace-Space-yellow)](https://huggingface.co/spaces/yourusername/archivist-ai)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](https://github.com/abdullahkousa2/archivist-ai)
+[![HuggingFace Space](https://img.shields.io/badge/🤗%20HuggingFace-Space-yellow)](https://huggingface.co/spaces/abdullahkousa2/archivist-ai)
 
 **Search your entire photo library with plain English. Runs fully offline on any CPU.**
 
@@ -214,7 +214,7 @@ pip install "archivist-ai[onnx]"
 
 **From source:**
 ```bash
-git clone https://github.com/yourusername/archivist-ai
+git clone https://github.com/abdullahkousa2/archivist-ai
 cd archivist-ai
 pip install -e ".[dev]"
 ```
@@ -265,7 +265,7 @@ The config file lives at `~/.archivist/config.json` and is created automatically
 Contributions are very welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
 
 ```bash
-git clone https://github.com/yourusername/archivist-ai
+git clone https://github.com/abdullahkousa2/archivist-ai
 cd archivist-ai
 pip install -e ".[dev]"
 pytest tests/

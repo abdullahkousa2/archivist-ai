@@ -48,9 +48,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/archivist-ai"
-Repository = "https://github.com/yourusername/archivist-ai"
-"Bug Tracker" = "https://github.com/yourusername/archivist-ai/issues"
+Homepage = "https://github.com/abdullahkousa2/archivist-ai"
+Repository = "https://github.com/abdullahkousa2/archivist-ai"
+"Bug Tracker" = "https://github.com/abdullahkousa2/archivist-ai/issues"
 
 [project.scripts]
 archivist = "archivist.cli:app"
