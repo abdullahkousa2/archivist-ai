@@ -1,14 +1,15 @@
 ---
 title: Archivist AI
 emoji: 🗂️
-colorFrom: orange
+colorFrom: yellow
 colorTo: gray
 sdk: gradio
-sdk_version: "4.44.0"
-app_file: app_hf.py
+sdk_version: "5.0.0"
+app_file: app.py
+python_version: "3.11"
 pinned: false
 license: mit
-short_description: Local-first AI image search — natural language, reverse image, duplicates
+short_description: Local AI image search — no cloud, no API keys
 tags:
   - image-search
   - clip
